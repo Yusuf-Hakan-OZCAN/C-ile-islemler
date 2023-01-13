@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1669106219 source:c:\users\pc\desktop\btÜ\algorÝtma ve programlama\c dili\kodlar\döngüsayac\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+
