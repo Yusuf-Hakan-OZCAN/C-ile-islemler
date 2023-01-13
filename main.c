@@ -3,16 +3,19 @@
 
 int main()
 {
-    int bassayi,bitsayi,sayac;
-    int toplam=0;
+    int n;
+    int i=1;
+    int carpim=1;
 
-    printf("Baslangic degerini giriniz: ");// baslangic degeri alir.
-    scanf("%d",&bassayi);
-    printf("Bitis degerini giriniz: ");// bitis degeri alir.
-    scanf("%d",&bitsayi);
+    printf("Lutfen faktoriyeli alinacak sayiyi giriniz: ");
+    scanf("%d",&n);
 
-    for(sayac=bassayi ; sayac<=bitsayi ; sayac++){// dongu ile baslangictan sona kadar olan sayilari toplar.
-        toplam= toplam+sayac;
+    while(i<=n)
+    {
+        carpim*=i;
+        i++;
     }
-    printf("Toplam: %d\n",toplam);// toplami bastirir.
+
+    printf("%d",carpim);
+    return 0;
 }
