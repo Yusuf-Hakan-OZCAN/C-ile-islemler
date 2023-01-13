@@ -4,11 +4,11 @@
 int main()
 {
     int n,i,j;
-    printf("Lutfen dizi uzunlugu giriniz: ");//Kullanıcıdan bir dizi uzunluğu alır.
+    printf("Lutfen dizi uzunlugu giriniz: ");//KullanÄ±cÄ±dan bir dizi uzunluÄŸu alÄ±r.
     scanf("%d",&n);
-    int liste[n];//Listeyi alınan değere göre oluşturur.(codeblocksta çalışır diğer compilerlarda çalışmayabilir.)
+    int liste[n];//Listeyi alÄ±nan deÄŸere gÃ¶re oluÅŸturur.(codeblocksta Ã§alÄ±ÅŸÄ±r diÄŸer compilerlarda Ã§alÄ±ÅŸmayabilir.)
 
-    for(i=0;i<n;i++)// döngü ile dizi elemanları alır.
+    for(i=0;i<n;i++)// dÃ¶ngÃ¼ ile dizi elemanlarÄ± alÄ±r.
     {
         printf("Lutfen dizinin %d. elemanini giriniz: ",i+1);
         scanf("%d",&liste[i]);
@@ -17,7 +17,7 @@ int main()
 
 
 
-        for(i=n-1,j=0;i>-1,j<n;i--,j++)//döngü ile listeyi tersten bastırır.
+        for(i=n-1,j=0;i>-1,j<n;i--,j++)//dÃ¶ngÃ¼ ile listeyi tersten bastÄ±rÄ±r.
     {
         printf("Yeni dizinin %d. elemani: %d\n",j+1,liste[i]);
     }
