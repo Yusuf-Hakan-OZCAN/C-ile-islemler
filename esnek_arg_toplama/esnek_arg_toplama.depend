@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1670057765 source:c:\users\pc\desktop\bt‹\algor›tma ve programlama\kodlar\esnek_arg_toplama\main.c
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+
