@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1671048518 source:c:\users\pc\desktop\bt‹\algor›tma ve programlama\kodlar\avp_projesi\main.c
+	<stdio.h>
+	<stdlib.h>
+	<time.h>
+	<math.h>
+	<stdarg.h>
+
