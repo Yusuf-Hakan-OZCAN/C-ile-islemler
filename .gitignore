@@ -1,0 +1,16 @@
+# Code::Blocks build çıktıları
+bin/
+obj/
+*.cbp
+*.depend
+*.layout
+
+# Derleme çıktıları
+*.o
+*.obj
+*.exe
+*.out
+
+# OS
+Thumbs.db
+.DS_Store
